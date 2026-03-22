@@ -2,13 +2,13 @@ import { motion } from "motion/react";
 
 export default function CTASection() {
   return (
-    <section className="py-24 bg-white">
+    <section className="py-24 bg-white dark:bg-gray-950 transition-colors duration-300">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, scale: 0.95 }}
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}
-          className="relative overflow-hidden rounded-[40px] bg-blue-600 px-8 py-24 text-center text-white shadow-2xl shadow-blue-200"
+          className="relative overflow-hidden rounded-[40px] bg-blue-600 px-8 py-24 text-center text-white shadow-2xl shadow-blue-200 dark:shadow-blue-900/20"
         >
           {/* Background decorative elements */}
           <div className="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none">

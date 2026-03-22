@@ -3,7 +3,7 @@ import { ArrowRight } from "lucide-react";
 
 export default function Hero() {
   return (
-    <section className="relative pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden bg-gray-50/50">
+    <section className="relative pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden bg-gray-50/50 dark:bg-gray-900/50 transition-colors duration-300">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <motion.div
@@ -11,11 +11,11 @@ export default function Hero() {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6 }}
           >
-            <h1 className="text-5xl lg:text-7xl font-bold tracking-tight text-gray-900 leading-[1.1]">
+            <h1 className="text-5xl lg:text-7xl font-bold tracking-tight text-gray-900 dark:text-white leading-[1.1] transition-colors duration-300">
               Precision for <br />
               Every <span className="text-blue-600">Workflow.</span>
             </h1>
-            <p className="mt-6 text-lg text-gray-600 max-w-lg leading-relaxed">
+            <p className="mt-6 text-lg text-gray-600 dark:text-gray-400 max-w-lg leading-relaxed transition-colors duration-300">
               Streamline your operations with real-time analytics and seamless integration. 
               Experience quiet authority in your data management.
             </p>
@@ -23,7 +23,7 @@ export default function Hero() {
               <button className="bg-blue-600 text-white px-8 py-4 rounded-xl text-base font-bold hover:bg-blue-700 transition-all shadow-lg shadow-blue-200 flex items-center gap-2 group">
                 Start Free <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </button>
-              <button className="bg-white text-gray-900 border border-gray-200 px-8 py-4 rounded-xl text-base font-bold hover:bg-gray-50 transition-all">
+              <button className="bg-white dark:bg-gray-800 text-gray-900 dark:text-white border border-gray-200 dark:border-gray-700 px-8 py-4 rounded-xl text-base font-bold hover:bg-gray-50 dark:hover:bg-gray-700 transition-all">
                 Learn More
               </button>
             </div>
@@ -42,11 +42,11 @@ export default function Hero() {
                 className="w-full h-auto"
                 referrerPolicy="no-referrer"
               />
-              <div className="absolute inset-0 bg-gradient-to-tr from-blue-600/10 to-transparent pointer-events-none" />
+              <div className="absolute inset-0 bg-gradient-to-tr from-blue-600/10 dark:from-blue-600/20 to-transparent pointer-events-none" />
             </div>
             {/* Decorative elements */}
-            <div className="absolute -top-10 -right-10 w-40 h-40 bg-blue-100 rounded-full blur-3xl opacity-50 -z-10" />
-            <div className="absolute -bottom-10 -left-10 w-60 h-60 bg-indigo-100 rounded-full blur-3xl opacity-50 -z-10" />
+            <div className="absolute -top-10 -right-10 w-40 h-40 bg-blue-100 dark:bg-blue-900/40 rounded-full blur-3xl opacity-50 -z-10 transition-colors duration-300" />
+            <div className="absolute -bottom-10 -left-10 w-60 h-60 bg-indigo-100 dark:bg-indigo-900/40 rounded-full blur-3xl opacity-50 -z-10 transition-colors duration-300" />
           </motion.div>
         </div>
       </div>
