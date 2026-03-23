@@ -1,13 +1,11 @@
 import { motion } from "motion/react";
 import { CheckCircle2 } from "lucide-react";
-
-const benefits = [
-  "Enterprise-grade security by default",
-  "Native integrations with 200+ apps",
-  "Customizable API-first architecture",
-];
+import { useTranslation } from "react-i18next";
 
 export default function WhyChooseUs() {
+  const { t } = useTranslation();
+  const benefits = t('whyChooseUs.benefits', { returnObjects: true }) as string[];
+
   return (
     <section className="py-24 bg-gray-50/50 dark:bg-gray-900/50 transition-colors duration-300">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -22,13 +20,13 @@ export default function WhyChooseUs() {
               <img
                 src="https://picsum.photos/seed/meeting/1000/1200"
                 alt="Our Team"
-                className="w-full h-auto object-cover aspect-[4/5]"
+                className="w-full h-auto object-cover aspect-4/5"
                 referrerPolicy="no-referrer"
               />
               <div className="absolute bottom-10 left-10 right-10 bg-blue-600 dark:bg-blue-700 p-8 rounded-2xl text-white shadow-xl transition-colors duration-300">
                 <div className="text-4xl font-bold mb-2">99.9%</div>
                 <div className="text-sm font-medium opacity-90">
-                  Uptime reliability guaranteed by our SLA.
+                  {t('whyChooseUs.uptime_desc')}
                 </div>
               </div>
             </div>
@@ -41,14 +39,13 @@ export default function WhyChooseUs() {
             transition={{ duration: 0.6 }}
           >
             <span className="text-xs font-bold uppercase tracking-widest text-blue-600 dark:text-blue-400 mb-4 block transition-colors duration-300">
-              The Precision Difference
+              {t('whyChooseUs.subtitle')}
             </span>
             <h2 className="text-4xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-5xl mb-8 transition-colors duration-300">
-              Why Choose Us
+              {t('whyChooseUs.title')}
             </h2>
             <p className="text-lg text-gray-600 dark:text-gray-400 mb-10 leading-relaxed transition-colors duration-300">
-              We don't just provide tools; we provide the architectural foundation for your digital ecosystem. 
-              Our philosophy centers on technical precision and editorial clarity.
+              {t('whyChooseUs.text')}
             </p>
             
             <div className="space-y-6">

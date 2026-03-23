@@ -1,43 +1,46 @@
 import { motion } from "motion/react";
 import { Star } from "lucide-react";
-
-const testimonials = [
-  {
-    quote: "Precision transformed how we handle our logistics data. The real-time reporting is a game-changer for our fleet management.",
-    author: "Marcus Sterling",
-    role: "CTO at FleetStream",
-    avatar: "https://i.pravatar.cc/150?u=marcus",
-  },
-  {
-    quote: "Finally, a dashboard that doesn't feel cluttered. The design is as precise as the data it presents.",
-    author: "Elena Rodriguez",
-    role: "Product Designer at Velo",
-    avatar: "https://i.pravatar.cc/150?u=elena",
-  },
-  {
-    quote: "Integration took minutes, not days. The smart automation saved us over 20 hours of manual work every week.",
-    author: "James Chen",
-    role: "Co-founder at CloudScale",
-    avatar: "https://i.pravatar.cc/150?u=james",
-  },
-];
+import { useTranslation } from "react-i18next";
 
 export default function Testimonials() {
+  const { t } = useTranslation();
+
+  const testimonials = [
+    {
+      quote: t('testimonials.items.marcus.quote'),
+      author: "Marcus Sterling",
+      role: t('testimonials.items.marcus.role'),
+      avatar: "https://i.pravatar.cc/150?u=marcus",
+    },
+    {
+      quote: t('testimonials.items.elena.quote'),
+      author: "Elena Rodriguez",
+      role: t('testimonials.items.elena.role'),
+      avatar: "https://i.pravatar.cc/150?u=elena",
+    },
+    {
+      quote: t('testimonials.items.james.quote'),
+      author: "James Chen",
+      role: t('testimonials.items.james.role'),
+      avatar: "https://i.pravatar.cc/150?u=james",
+    },
+  ];
+
   return (
     <section className="py-24 bg-gray-50/50 dark:bg-gray-900/50 transition-colors duration-300">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row justify-between items-end mb-16 gap-8">
           <div className="max-w-xl">
             <span className="text-xs font-bold uppercase tracking-widest text-blue-600 dark:text-blue-400 mb-4 block transition-colors duration-300">
-              Proven Trust
+              {t('testimonials.subtitle')}
             </span>
             <h2 className="text-4xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-5xl transition-colors duration-300">
-              Built by developers, loved by users.
+              {t('testimonials.title')}
             </h2>
           </div>
           <div className="text-right">
             <p className="text-sm font-bold text-gray-500 uppercase tracking-widest mb-2">
-              Trusted by 10,000+ companies worldwide.
+              {t('testimonials.trustedBy')}
             </p>
             <div className="flex gap-1 justify-end">
               {[...Array(5)].map((_, i) => (

@@ -1,6 +1,8 @@
 import { motion } from "motion/react";
+import { useTranslation } from "react-i18next";
 
 export default function CTASection() {
+  const { t } = useTranslation();
   return (
     <section className="py-24 bg-white dark:bg-gray-950 transition-colors duration-300">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -18,14 +20,14 @@ export default function CTASection() {
 
           <div className="relative z-10 max-w-3xl mx-auto">
             <h2 className="text-4xl font-bold tracking-tight sm:text-6xl mb-8">
-              Start your free trial today
+              {t('cta.title')}
             </h2>
             <p className="text-xl text-blue-50 mb-12 leading-relaxed opacity-90">
-              Join the future of high-precision workflow management. <br />
-              No credit card required.
+              {t('cta.subtitle1')} <br />
+              {t('cta.subtitle2')}
             </p>
             <button className="bg-white text-blue-600 px-10 py-5 rounded-2xl text-lg font-bold hover:bg-blue-50 transition-all shadow-xl hover:scale-105 active:scale-95">
-              Get Started Now
+              {t('cta.button')}
             </button>
           </div>
         </motion.div>

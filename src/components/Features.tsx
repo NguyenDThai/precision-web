@@ -1,37 +1,40 @@
 import { motion } from "motion/react";
 import { Zap, BarChart3, Settings2 } from "lucide-react";
-
-const features = [
-  {
-    title: "Scalability",
-    description: "Infrastructure that grows with your vision, handling millions of requests with zero latency.",
-    icon: Zap,
-    color: "bg-blue-50 text-blue-600 dark:bg-blue-900/30 dark:text-blue-400",
-  },
-  {
-    title: "Real-time Analytics",
-    description: "Live data streams processed instantly. Make decisions based on now, not yesterday.",
-    icon: BarChart3,
-    color: "bg-indigo-50 text-indigo-600 dark:bg-indigo-900/30 dark:text-indigo-400",
-  },
-  {
-    title: "Smart Automation",
-    description: "Intelligent workflows that learn from your patterns to eliminate repetitive tasks.",
-    icon: Settings2,
-    color: "bg-emerald-50 text-emerald-600 dark:bg-emerald-900/30 dark:text-emerald-400",
-  },
-];
+import { useTranslation } from "react-i18next";
 
 export default function Features() {
+  const { t } = useTranslation();
+
+  const features = [
+    {
+      title: t('features.items.scalability.title'),
+      description: t('features.items.scalability.desc'),
+      icon: Zap,
+      color: "bg-blue-50 text-blue-600 dark:bg-blue-900/30 dark:text-blue-400",
+    },
+    {
+      title: t('features.items.analytics.title'),
+      description: t('features.items.analytics.desc'),
+      icon: BarChart3,
+      color: "bg-indigo-50 text-indigo-600 dark:bg-indigo-900/30 dark:text-indigo-400",
+    },
+    {
+      title: t('features.items.automation.title'),
+      description: t('features.items.automation.desc'),
+      icon: Settings2,
+      color: "bg-emerald-50 text-emerald-600 dark:bg-emerald-900/30 dark:text-emerald-400",
+    },
+  ];
+
   return (
     <section id="features" className="py-24 bg-white dark:bg-gray-950 transition-colors duration-300">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <span className="text-xs font-bold uppercase tracking-widest text-blue-600 dark:text-blue-400 mb-4 block transition-colors duration-300">
-            Engineered for Performance
+            {t('features.subtitle')}
           </span>
           <h2 className="text-4xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-5xl transition-colors duration-300">
-            Architected for Speed.
+            {t('features.title')}
           </h2>
         </div>
 

@@ -1,0 +1,136 @@
+{
+  "navbar": {
+    "brand": "Precision",
+    "home": "Trang chủ",
+    "features": "Tính năng",
+    "pricing": "Bảng giá",
+    "contact": "Liên hệ",
+    "login": "Đăng nhập",
+    "getStarted": "Bắt đầu"
+  },
+  "hero": {
+    "title1": "Độ chính xác cho",
+    "title2": "Mọi",
+    "title3": "Quy trình.",
+    "subtitle": "Tối ưu hóa hoạt động của bạn với phân tích thời gian thực và tích hợp mượt mà. Trải nghiệm sự quản lý dữ liệu tĩnh lặng mà mạnh mẽ.",
+    "startFree": "Bắt đầu miễn phí",
+    "learnMore": "Tìm hiểu thêm"
+  },
+  "features": {
+    "subtitle": "Được thiết kế cho hiệu suất",
+    "title": "Cấu trúc cho tốc độ.",
+    "items": {
+      "scalability": {
+        "title": "Khả năng mở rộng",
+        "desc": "Hạ tầng phát triển cùng tầm nhìn của bạn, xử lý hàng triệu yêu cầu mà không có độ trễ."
+      },
+      "analytics": {
+        "title": "Phân tích thời gian thực",
+        "desc": "Luồng dữ liệu trực tiếp được xử lý ngay lập tức. Đưa ra quyết định dựa trên hiện tại, không phải hôm qua."
+      },
+      "automation": {
+        "title": "Tự động hóa thông minh",
+        "desc": "Các quy trình thông minh học từ các mẫu của bạn để loại bỏ các nhiệm vụ lặp đi lặp lại."
+      }
+    }
+  },
+  "pricing": {
+    "title": "Đơn giản, Minh bạch",
+    "subtitle": "Chọn gói phù hợp với quỹ đạo phát triển của bạn.",
+    "mostPopular": "Phổ biến nhất",
+    "perMonth": "/tháng",
+    "plans": {
+      "basic": {
+        "name": "Cơ bản",
+        "description": "Dành cho cá nhân và trải nghiệm.",
+        "features": [
+          "Lên đến 3 dự án",
+          "Hỗ trợ cộng đồng",
+          "Phân tích cơ bản"
+        ],
+        "cta": "Bắt đầu miễn phí"
+      },
+      "pro": {
+        "name": "Pro",
+        "description": "Dành cho các nhóm đang phát triển.",
+        "features": [
+          "Dự án không giới hạn",
+          "Hỗ trợ email ưu tiên",
+          "Phân tích nâng cao",
+          "Tích hợp tùy chỉnh"
+        ],
+        "cta": "Bắt đầu Pro"
+      },
+      "premium": {
+        "name": "Premium",
+        "description": "Dành cho doanh nghiệp quy mô toàn cầu.",
+        "features": [
+          "Mọi thứ ở Pro",
+          "Hỗ trợ chuyên dụng 24/7",
+          "SLA & Bảo mật tùy chỉnh"
+        ],
+        "cta": "Liên hệ Sales"
+      }
+    }
+  },
+  "testimonials": {
+    "subtitle": "Sự tin cậy đã được chứng minh",
+    "title": "Được xây dựng bởi các nhà phát triển, được người dùng yêu mến.",
+    "trustedBy": "Được cung cấp bởi hơn 10.000 công ty trên toàn thế giới.",
+    "items": {
+      "marcus": {
+        "quote": "Precision đã thay đổi cách chúng tôi xử lý dữ liệu logistics. Báo cáo thời gian thực là một thay đổi cuộc chơi cho việc quản lý đội bay của chúng tôi.",
+        "role": "CTO tại FleetStream"
+      },
+      "elena": {
+        "quote": "Cuối cùng, một bảng điều khiển không cảm giác lộn xộn. Thiết kế chính xác như dữ liệu mà nó hiển thị.",
+        "role": "Thiết kế Sản phẩm tại Velo"
+      },
+      "james": {
+        "quote": "Việc tích hợp chỉ mất vài phút, không phải vài ngày. Tự động hóa thông minh đã tiết kiệm cho chúng tôi hơn 20 giờ làm việc thủ công mỗi tuần.",
+        "role": "Đồng sáng lập tại CloudScale"
+      }
+    }
+  },
+  "cta": {
+    "title": "Bắt đầu dùng thử miễn phí hôm nay",
+    "subtitle1": "Tham gia vào tương lai của quản lý quy trình phân giải cao.",
+    "subtitle2": "Không cần thẻ tín dụng.",
+    "button": "Bắt đầu Ngay"
+  },
+  "whyChooseUs": {
+    "uptime_desc": "Độ tin cậy được đảm bảo bằng SLA của chúng tôi.",
+    "subtitle": "Sự khác biệt của Precision",
+    "title": "Tại sao Chọn Chúng tôi",
+    "text": "Chúng tôi không chỉ cung cấp các công cụ; chúng tôi cung cấp nền tảng kiến trúc cho hệ sinh thái số của bạn. Triết lý của chúng tôi tập trung vào độ chính xác kỹ thuật và sự rõ ràng biên tập.",
+    "benefits": [
+      "Bảo mật hạng doanh nghiệp mặc định",
+      "Tích hợp với 200+ ứng dụng",
+      "Cấu trúc API-first linh hoạt"
+    ]
+  },
+  "footer": {
+    "brand": "Precision",
+    "desc": "Sự khoảng trống kiến trúc nơi thiết kế biên tập gặp sự chính xác kỹ thuật của luồng thủ tục.",
+    "categories": {
+      "Product": "Sản phẩm",
+      "Company": "Công ty",
+      "Legal": "Pháp lý",
+      "Support": "Hỗ trợ"
+    },
+    "links": {
+      "Features": "Tính năng",
+      "Pricing": "Bảng giá",
+      "Integrations": "Tích hợp",
+      "About Us": "Về Chúng tôi",
+      "Blog": "Blog",
+      "Careers": "Tuyển dụng",
+      "Privacy Policy": "Chính sách Bảo mật",
+      "Terms of Service": "Điều khoản Thỏa thuận",
+      "Help Center": "Trung tâm Trợ giúp",
+      "Contact Us": "Liên hệ"
+    },
+    "copyright": "© 2024 Precision Startup Editorial. Đã đăng ký Bản quyền.",
+    "lang": "Tiếng Việt (VI)"
+  }
+}

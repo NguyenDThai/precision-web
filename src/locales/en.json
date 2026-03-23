@@ -1,0 +1,136 @@
+{
+  "navbar": {
+    "brand": "Precision",
+    "home": "Home",
+    "features": "Features",
+    "pricing": "Pricing",
+    "contact": "Contact",
+    "login": "Log in",
+    "getStarted": "Get Started"
+  },
+  "hero": {
+    "title1": "Precision for",
+    "title2": "Every",
+    "title3": "Workflow.",
+    "subtitle": "Streamline your operations with real-time analytics and seamless integration. Experience quiet authority in your data management.",
+    "startFree": "Start Free",
+    "learnMore": "Learn More"
+  },
+  "features": {
+    "subtitle": "Engineered for Performance",
+    "title": "Architected for Speed.",
+    "items": {
+      "scalability": {
+        "title": "Scalability",
+        "desc": "Infrastructure that grows with your vision, handling millions of requests with zero latency."
+      },
+      "analytics": {
+        "title": "Real-time Analytics",
+        "desc": "Live data streams processed instantly. Make decisions based on now, not yesterday."
+      },
+      "automation": {
+        "title": "Smart Automation",
+        "desc": "Intelligent workflows that learn from your patterns to eliminate repetitive tasks."
+      }
+    }
+  },
+  "pricing": {
+    "title": "Simple, Transparent Pricing",
+    "subtitle": "Choose the plan that matches your growth trajectory.",
+    "mostPopular": "Most Popular",
+    "perMonth": "/mo",
+    "plans": {
+      "basic": {
+        "name": "Basic",
+        "description": "For individuals and experiments.",
+        "features": [
+          "Up to 3 projects",
+          "Community support",
+          "Basic analytics"
+        ],
+        "cta": "Start Free"
+      },
+      "pro": {
+        "name": "Pro",
+        "description": "For growing teams and startups.",
+        "features": [
+          "Unlimited projects",
+          "Priority email support",
+          "Advanced analytics",
+          "Custom integrations"
+        ],
+        "cta": "Get Started Pro"
+      },
+      "premium": {
+        "name": "Premium",
+        "description": "For global scale enterprises.",
+        "features": [
+          "Everything in Pro",
+          "24/7 dedicated support",
+          "Custom SLA & Security"
+        ],
+        "cta": "Contact Sales"
+      }
+    }
+  },
+  "testimonials": {
+    "subtitle": "Proven Trust",
+    "title": "Built by developers, loved by users.",
+    "trustedBy": "Trusted by 10,000+ companies worldwide.",
+    "items": {
+      "marcus": {
+        "quote": "Precision transformed how we handle our logistics data. The real-time reporting is a game-changer for our fleet management.",
+        "role": "CTO at FleetStream"
+      },
+      "elena": {
+        "quote": "Finally, a dashboard that doesn't feel cluttered. The design is as precise as the data it presents.",
+        "role": "Product Designer at Velo"
+      },
+      "james": {
+        "quote": "Integration took minutes, not days. The smart automation saved us over 20 hours of manual work every week.",
+        "role": "Co-founder at CloudScale"
+      }
+    }
+  },
+  "cta": {
+    "title": "Start your free trial today",
+    "subtitle1": "Join the future of high-precision workflow management.",
+    "subtitle2": "No credit card required.",
+    "button": "Get Started Now"
+  },
+  "whyChooseUs": {
+    "uptime_desc": "Uptime reliability guaranteed by our SLA.",
+    "subtitle": "The Precision Difference",
+    "title": "Why Choose Us",
+    "text": "We don't just provide tools; we provide the architectural foundation for your digital ecosystem. Our philosophy centers on technical precision and editorial clarity.",
+    "benefits": [
+      "Enterprise-grade security by default",
+      "Native integrations with 200+ apps",
+      "Customizable API-first architecture"
+    ]
+  },
+  "footer": {
+    "brand": "Precision",
+    "desc": "The architectural void where high-end editorial design meets technical workflow precision.",
+    "categories": {
+      "Product": "Product",
+      "Company": "Company",
+      "Legal": "Legal",
+      "Support": "Support"
+    },
+    "links": {
+      "Features": "Features",
+      "Pricing": "Pricing",
+      "Integrations": "Integrations",
+      "About Us": "About Us",
+      "Blog": "Blog",
+      "Careers": "Careers",
+      "Privacy Policy": "Privacy Policy",
+      "Terms of Service": "Terms of Service",
+      "Help Center": "Help Center",
+      "Contact Us": "Contact Us"
+    },
+    "copyright": "© 2024 Precision Startup Editorial. All rights reserved.",
+    "lang": "English (US)"
+  }
+}
