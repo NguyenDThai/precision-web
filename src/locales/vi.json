@@ -132,5 +132,23 @@
     },
     "copyright": "© 2024 Precision Startup Editorial. Đã đăng ký Bản quyền.",
     "lang": "Tiếng Việt (VI)"
+  },
+  "login": {
+    "title": "Đăng nhập",
+    "subtitle": "Chào mừng bạn quay trở lại",
+    "emailLabel": "Email",
+    "emailPlaceholder": "Nhập email của bạn",
+    "emailRequired": "Email không được để trống",
+    "passwordLabel": "Mật khẩu",
+    "passwordPlaceholder": "Nhập mật khẩu của bạn",
+    "passwordRequired": "Mật khẩu không được để trống",
+    "submitBtn": "Đăng nhập",
+    "noAccount": "Bạn chưa có tài khoản?",
+    "register": "Đăng ký"
+  },
+  "notfound": {
+    "title": "Không tìm thấy trang",
+    "subtitle": "Xin lỗi, chúng tôi không thể tìm thấy trang bạn đang tìm kiếm. Nó có thể đã bị di chuyển, xóa hoặc chưa bao giờ tồn tại trong hệ thống.",
+    "button": "Quay về trang chủ"
   }
 }

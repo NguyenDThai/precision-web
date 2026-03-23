@@ -132,5 +132,23 @@
     },
     "copyright": "© 2024 Precision Startup Editorial. All rights reserved.",
     "lang": "English (US)"
+  },
+  "login": {
+    "title": "Log in",
+    "subtitle": "Welcome back to the ecosystem",
+    "emailLabel": "Email",
+    "emailPlaceholder": "Enter your email",
+    "emailRequired": "Email is required",
+    "passwordLabel": "Password",
+    "passwordPlaceholder": "Enter your password",
+    "passwordRequired": "Password is required",
+    "submitBtn": "Log in",
+    "noAccount": "Don't have an account?",
+    "register": "Register"
+  },
+  "notfound": {
+    "title": "Page not found",
+    "subtitle": "Sorry, we couldn't find the page you're looking for. It might have been moved, deleted, or never existed in the ecosystem.",
+    "button": "Go back home"
   }
 }
